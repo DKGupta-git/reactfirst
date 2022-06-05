@@ -61,7 +61,7 @@ function Textchanged(props){
     return(
     <>
 <div className="form-group container my-5"  style= { props.navmode === 'light'?{color:'black'}:{color:'white'}}>
-    <p>Please use this button</p>
+    <p>Please Use This Buttons</p>
   <h1>{props.heading}{ props.navmode}</h1>
 
   <textarea className="form-control" value={textValue} onChange={toAddtext} rows="10" id="comment"></textarea>
