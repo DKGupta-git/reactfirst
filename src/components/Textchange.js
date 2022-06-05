@@ -61,7 +61,9 @@ function Textchanged(props){
     return(
     <>
 <div className="form-group container my-5"  style= { props.navmode === 'light'?{color:'black'}:{color:'white'}}>
+    <p>Please use this button</p>
   <h1>{props.heading}{ props.navmode}</h1>
+
   <textarea className="form-control" value={textValue} onChange={toAddtext} rows="10" id="comment"></textarea>
   <button type="button" className="btn btn-primary my-2" onClick={toUppercase}>To UpperCase</button>
   <button type="button" className="btn btn-secondary mx-2 my-2" onClick={toLowercaseFun}>To LowerCase</button>
